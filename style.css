@@ -1,40 +1,169 @@
 #nav-container{
     position:fixed;
+    top: 0;
+    z-index: 1000; 
     background-color: white;
     height: 65px;
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    box-sizing: border-box;
     /* align-content: space-around; */
 
 }
-/*#background-image{
-    background-position: 50%; 
-    background-size: cover;  
+ .nav {
+    margin: 0px 5px 0px 5px;
+}
+
+#search{
+    flex: 1 1 150px;
+}
+
+#end > span, #login, #join{
+    margin: 0px 5px 0px 5px;
+}
+
+#end a {
+    color:#2073d4;
+    text-decoration: none;
+}
+
+#exp , #join{
+    color: white;
+    background-color:#2073d4;
+    padding: 5px;
+}
+#enter{
+    width: 350px;
+    height: 25px;
+    margin-right: 0;
+}
+
+#srch{
+    margin-left: 0;
+    height:30px;
+}
+
+#img{
+    display:block;
+    position: relative;
+    top: 65px;
+    margin-bottom: 105px;
+    width:100%;
+}
+#page-panner{
+    display:block;
+    background-color: #271066;
+    color: #fff;
+    width: 100%;
+}
+
+#image-container{
+    margin: 0 auto;
+    max-width: 1400px;
+    position: relative;
+    width: 100%;
+    border: 5px solid green;
+} 
+
+#text-container{
+    margin-left: 100px;
+    max-width: 520px;
+    padding: 90px 20px;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
+
+#text-container h1{
+    font-family: OpenSans,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 13px;
+}
+
+#text-container div{
+    font-family: OpenSans,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 33px;
+ }
+
+ #text-container button{
+    font-family: OpenSans,Arial,sans-serif;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 0 solid transparent;
+    color: #2a73cc;
+    font-size: 20px;
+    outline: none;
+    padding: 23px 48px;
+ }
+
+ #text-container button:hover{
+     color: #fff;
+     background-color: #2a73cc;
+ }
+
+#background-gradient{
+    background: linear-gradient(90deg,#271066,rgba(39,16,102,0) 85%,rgba(39,16,102,0) 0,#271066);
     height: 100%;
-    left: 0; 
-    position: absolute; 
-    top: 0; 
-    width: 500px;
-    z-index: 1;
-} */
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
 
 #background-image{
+    background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/hero-banner/robot-girl.jpg?auto=format%2Ccompress&amp;dpr=1");
+    background-position: 50%;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* #background-image{
      background-image: url("background.png");
      width: 1500px;
      height: 600px;
+} */
+
+#U200{
+    text-align:center;
 }
 
-ul{
-    display: grid;
-    grid-template-columns: 190px 190px 190px 190px;
-    grid-template-rows: 218px;
-    justify-content: space-evenly;
+#parnters-co{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1132px;
+    padding: 0 10px;
+    width: 100%; 
+    
+}
+.parntner-logo a{
+    display: inline-block;
+    margin: 0 10px 30px;
+}
 
+.separator{
+    border-bottom: 1px solid #e1e1e1;
+    height: 0;
+    margin: 0 auto;
+    width: calc(100% -55px);
 }
-li{
-    list-style-type: none;
-}
+
 #achieve-goals{
     display: block;
     font-family: Arial,sans-serif;
@@ -46,15 +175,80 @@ li{
     line-height: 42px;
 }
 
-#goals span{
+
+ul{
+    display: grid;
+    grid-template-columns: 190px 190px 190px 190px;
+    grid-template-rows: 218px;
+    justify-content: space-evenly;
+
+}
+li{
+    list-style-type: none;
+    text-align: center;
+}
+
+
+#goals img{
+    width: 55px;
+    height:44px;
+    margin: 10px;
+}
+
+ul.goals-exp span{
     color: #1f1f1f;
     display: block;
     font-size: 16px;
     line-height: 27px;
     margin-top: 10px;
+
+    font-family: OpenSans,Arial,sans-serif;
+    color: #666;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 1.5rem;
+}
+  
+
+#promoAD{
+    position:relative;
+    background: #d6edf6;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    
 }
 
-#goals img{
-    width: 55px;
-    height:44px;
+#red-dot{
+    align-self: flex-start;
+    max-width: 100px;
+    max-height: 50px;
+}
+
+#blue-dot{
+    align-self: flex-end;
+}
+
+#pic1-exp{
+    font-size: 25px;
+    line-height: 34px;
+    max-width: 460px;
+}
+
+#AD2{
+    margin-top: 128px;
+    position: relative;
+    width: 100%;
+}
+
+#AD2 h2{
+    font-family: OpenSans,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 92px;
+    padding: 0 20px;
+    text-align: center;
+    
 }
