@@ -134,14 +134,6 @@ body{
     width: 100%;
     z-index: 1;
 }
-
-
-/* #background-image{
-     background-image: url("background.png");
-     width: 1500px;
-     height: 600px;
-} */
-
 #U200{
     text-align:center;
 }
@@ -179,7 +171,6 @@ body{
     line-height: 42px;
 }
 
-
 ul{
     display: grid;
     grid-template-columns: 190px 190px 190px 190px;
@@ -191,7 +182,6 @@ li{
     list-style-type: none;
     text-align: center;
 }
-
 
 #goals img{
     width: 55px;
@@ -205,23 +195,19 @@ ul.goals-exp span{
     font-size: 16px;
     line-height: 27px;
     margin-top: 10px;
-
-     
     color: #666;
     font-weight: 400;
     line-height: 32px;
     font-size: 1.5rem;
 }
   
-
 #promoAD{
     position:relative;
     background: #d6edf6;
     height: 400px;
     display: flex;
     align-items: center;
-    justify-content: space-around; 
-    
+    justify-content: space-around;    
 }
 
 #red-dot{
@@ -256,7 +242,6 @@ ul.goals-exp span{
 }
 
 .join-Button{
-     
     font-weight: 700;
     border-radius: 2px;
     border: 1px solid #2073d4;
@@ -271,7 +256,6 @@ ul.goals-exp span{
 }
 
 #pic1-try{
-     
     text-decoration: none;
     font-weight: 700;
     background: #fff;
@@ -301,7 +285,6 @@ ul.goals-exp span{
 }
 
 #AD2 h2{
-     
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
@@ -322,7 +305,6 @@ ul.goals-exp span{
 }
 
 #pic2-exp-div1{
-     
     font-weight: 700;
     color: #666;
     font-size: 14px;
@@ -332,7 +314,6 @@ ul.goals-exp span{
 
 #pic2-exp h3{
     max-width: 300px;
-     
     color: #1f1f1f;
     line-height: 32px;
 }
@@ -347,7 +328,6 @@ ul.goals-exp span{
 }
 
 #pic2-exp-div2{
-     
     font-size: 16px;
     line-height: 32px;
     width: 310px;
@@ -355,7 +335,6 @@ ul.goals-exp span{
 
 
 #pic2-top{
-     
     font-weight: 700;
     background-color: rgba(0,0,0,.67);
     top:362px;
@@ -391,7 +370,6 @@ ul.goals-exp span{
 }
 
 #pic3-exp-div1{
-     
     font-weight: 700;
     color: #666;
     font-size: 14px;
@@ -401,14 +379,12 @@ ul.goals-exp span{
 
 #pic3-exp h3{
     max-width: 360px;
-     
     color: #1f1f1f;
     line-height: 32px;
 }
 
 
 #pic3-exp-div2{
-     
     font-size: 16px;
     line-height: 32px;
     width: 340px;
@@ -434,7 +410,6 @@ ul.goals-exp span{
 }
 
 #pic4-exp-div1{
-     
     font-weight: 700;
     color: #666;
     font-size: 14px;
@@ -444,13 +419,11 @@ ul.goals-exp span{
 
 #pic4-exp h3{
     max-width: 360px;
-     
     color: #1f1f1f;
     line-height: 32px;
 }
 
 #pic4-exp-div2{
-     
     font-size: 16px;
     line-height: 32px;
     width: 340px;
@@ -471,7 +444,6 @@ ul.goals-exp span{
 }
 
 #pic5-exp-div1{
-     
     font-weight: 700;
     color: #666;
     font-size: 14px;
@@ -481,13 +453,11 @@ ul.goals-exp span{
 
 #pic5-exp h3{
     max-width: 360px;
-     
     color: #1f1f1f;
     line-height: 32px;
 }
 
 #pic5-exp-div2{
-     
     color: #1f1f1f;
     line-height: 32px;
     max-width: 400px;
@@ -570,7 +540,6 @@ ul.goals-exp span{
     padding: 0;
 }
 
-
 /****************************************/
 #promoAD6{
     min-height: 380px;
@@ -588,7 +557,6 @@ ul.goals-exp span{
     display: inline-flex;
     max-width: 400px;
     max-height: 250px;
-    
 }
 
 #pic6-exp{
@@ -659,7 +627,6 @@ ul.goals-exp span{
     margin-right: 35px;
     position: relative;
     left: -40px;
-    
 }
 
 #business-exp{
