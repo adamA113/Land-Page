@@ -160,6 +160,10 @@ body{
     width: calc(100% -55px);
 }
 
+#parnters-co{
+    margin: 50px auto;
+}
+
 #achieve-goals{
     display: block;
      
@@ -182,6 +186,7 @@ li{
     list-style-type: none;
     text-align: center;
 }
+
 
 #goals img{
     width: 55px;

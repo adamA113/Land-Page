@@ -20,15 +20,15 @@ var universities = {
 
     "google": ["https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/partners/google.png?auto=format%2Ccompress&dpr=1&w=&h=37", "https://www.coursera.org/google"],
 
-    "umich": ["https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/partners/umich.png?auto=format%2Ccompress&dpr=1&w=&h=55", "/https://www.coursera.org/umich"],
+    "umich": ["https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/partners/umich.png?auto=format%2Ccompress&dpr=1&w=&h=55", "https://www.coursera.org/umich"],
 
     "ibm": ["https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/partners/ibm.png?auto=format%2Ccompress&dpr=1&w=&h=32", "https://www.coursera.org/ibm"],
 
     "imperial": ["https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/partners/imperial.png?auto=format%2Ccompress&dpr=2&w=&h=35", "/https://www.coursera.org/imperial"],
 
-    "stanford": ["https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/partners/stanford.svg?auto=format%2Ccompress&dpr=2&w=&h=27", "/https://www.coursera.org/stanford"],
+    "stanford": ["https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/partners/stanford.svg?auto=format%2Ccompress&dpr=2&w=&h=27", "https://www.coursera.org/stanford"],
 
-    "penn": ["https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/partners/penn.svg?auto=format%2Ccompress&dpr=1&w=&h=37", "/https://www.coursera.org/penn"]
+    "penn": ["https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-story/partners/penn.svg?auto=format%2Ccompress&dpr=1&w=&h=37 ", "https://www.coursera.org/penn"]
 }
 
 function addUniPic(obj) {
